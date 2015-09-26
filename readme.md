@@ -2,6 +2,7 @@
 
 > Detect support for the modern flexbox spec
 
+Detects support for `flex-wrap`.
 
 ## Install
 
@@ -9,36 +10,13 @@
 $ npm install --save is-flexbox
 ```
 
-
 ## Usage
 
 ```js
 var isFlexbox = require('is-flexbox')
 
-isFlexbox('input')
-//=> output
+console.log(isFlexbox) // => true in browsers that support the modern flexbox spec, false in ones that don't
 ```
-
-## API
-
-#### `isFlexbox(input, [options])` -> `output`
-
-##### input
-
-*Required*  
-Type: `string`
-
-Lorem ipsum.
-
-##### options
-
-###### foo
-
-Type: `boolean`  
-Default: `false`
-
-Lorem ipsum.
-
 
 ## License
 
