@@ -1,0 +1,30 @@
+{
+  "name": "is-flexbox",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Detect support for the modern flexbox spec",
+  "license": "MIT",
+  "repository": "ajoslin/is-flexbox",
+  "author": {
+    "name": "Andrew Joslin",
+    "email": "andrewtjoslin@gmail.com",
+    "url": "ajoslin.com"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "flexbox support"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^4.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "global": "^4.3.0",
+    "to-array": "^0.1.4"
+  }
+}
