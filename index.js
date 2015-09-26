@@ -4,7 +4,7 @@ var window = require('global/window')
 var document = require('global/document')
 var toArray = require('to-array')
 
-var MATCH = /(f|F)lexWrap/
+var MATCH = /flex-?wrap/i
 
 module.exports = checkFlexbox()
 
